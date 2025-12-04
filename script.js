@@ -1,4 +1,8 @@
 // THREE.js setup
+document.getElementById("loading").style.display = "block";
+generateFromWord(w, d);
+document.getElementById("loading").style.display = "none";
+
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x000000);
 
