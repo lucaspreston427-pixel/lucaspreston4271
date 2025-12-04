@@ -1,3 +1,4 @@
+document.getElementById("ding").play();
 // THREE.js setup
 document.getElementById("loading").style.display = "block";
 generateFromWord(w, d);
