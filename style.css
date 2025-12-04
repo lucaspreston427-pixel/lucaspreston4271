@@ -1,0 +1,25 @@
+body {
+    background: #000;
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-family: Arial;
+}
+
+#prompt {
+    width: 250px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 12px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#container {
+    width: 100vw;
+    height: 90vh;
+}
