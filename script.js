@@ -1,3 +1,10 @@
+const words = ["robot", "skull", "dragon", "tree", "ship", "beast"];
+document.getElementById("randomBtn").onclick = () => {
+  const w = words[Math.floor(Math.random()*words.length)];
+  word.value = w;
+  generateFromWord(w, parseInt(detailSlider.value));
+};
+
 document.getElementById("ding").play();
 // THREE.js setup
 document.getElementById("loading").style.display = "block";
